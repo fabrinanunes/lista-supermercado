@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #101011;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2c2c2e;
+    text-align: center;
+}
+
+.app {
+    position: relative;
+}
+.container {
+    background-color: #94babb;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+
+    width: 400px;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1em 2em;
+    border-radius: 15px;
+
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.2em, 0;
+}
+
+.botao-remover {
+    border: none;
+    background-color: #f4d58d;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+#botao-add {
+    cursor: pointer;
+    border: none;
+    background-color: #f4d58d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    padding: 0.5em;
+}
+
+input {
+    border: none;
+    padding: 0.5em;
+}
